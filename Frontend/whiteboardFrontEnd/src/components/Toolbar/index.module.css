@@ -1,0 +1,47 @@
+.container {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+
+  display: flex;
+
+  padding: 8px 12px;
+
+  border: 1px solid #9ca3af;
+  border-radius: 4px;
+
+  transform: translateX(-50%);
+
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.toolItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.25rem;
+  color: black;
+
+  padding: 12px;
+
+  margin-right: 20px;
+
+  cursor: pointer;
+}
+
+.toolItem:last-child {
+  margin-right: 0;
+}
+
+.toolItem:hover {
+  background-color: #eff6ff;
+  color: #374151;
+  border-radius: 4px;
+}
+
+.active {
+  background-color: #bfdbfe;
+  color: #374151;
+  border-radius: 4px;
+}
